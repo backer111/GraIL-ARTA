@@ -37,6 +37,3 @@ The trained model and the logs are stored in `experiments` folder. Note that to 
 
 The full transductive datasets used in these experiments are present in the `data` folder.
 
-# GraIL-ART
-# GraIL-ART
-# GraIL-ART
