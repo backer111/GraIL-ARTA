@@ -1,0 +1,143 @@
+2025-06-11 11:49:26,612 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-06-11 11:49:26,612 [INFO] 实体数量: 1594, 关系数量: 180
+2025-06-11 11:49:26,612 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail-master/data/fb237_v1/subgraphs_en_True_neg_1_hop_3
+2025-06-11 11:49:26,669 [INFO] Sampling negative links for train
+2025-06-11 11:49:26,975 [INFO] Sampling negative links for valid
+2025-06-11 11:49:27,037 [INFO] Sampling negative links for test
+2025-06-11 11:49:38,806 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-06-11 11:51:09,413 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-06-11 11:52:26,113 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-06-11 11:52:35,971 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-06-11 11:52:44,923 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-06-11 11:52:54,981 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-06-11 11:53:03,953 [INFO] 子图数据集生成完成
+2025-06-13 16:47:32,053 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-06-13 16:47:32,053 [INFO] 实体数量: 2746, 关系数量: 9
+2025-06-13 16:47:32,053 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集全部完成/data/WN18RR_v1/subgraphs_en_True_neg_1_hop_3
+2025-06-13 16:47:32,069 [INFO] Sampling negative links for train
+2025-06-13 16:47:32,329 [INFO] Sampling negative links for valid
+2025-06-13 16:47:32,359 [INFO] Sampling negative links for test
+2025-06-13 16:47:33,237 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-06-13 16:47:41,890 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-06-13 16:47:50,136 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-06-13 16:47:51,271 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-06-13 16:47:52,306 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-06-13 16:47:53,444 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-06-13 16:47:54,494 [INFO] 子图数据集生成完成
+2025-07-14 16:40:01,273 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-14 16:40:01,273 [INFO] 实体数量: 2608, 关系数量: 200
+2025-07-14 16:40:01,273 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/fb237_v2/subgraphs_en_True_neg_1_hop_2
+2025-07-14 16:40:01,347 [INFO] Sampling negative links for train
+2025-07-14 16:40:02,101 [INFO] Sampling negative links for valid
+2025-07-14 16:40:02,206 [INFO] Sampling negative links for test
+2025-07-14 16:40:10,651 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-14 16:43:15,726 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-07-14 16:45:56,997 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-07-14 16:46:17,459 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-07-14 16:46:36,318 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-07-14 16:46:56,877 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-07-14 16:47:16,060 [INFO] 子图数据集生成完成
+2025-07-14 17:27:08,571 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-14 17:27:08,571 [INFO] 实体数量: 3668, 关系数量: 215
+2025-07-14 17:27:08,571 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/fb237_v3/subgraphs_en_True_neg_1_hop_2
+2025-07-14 17:27:08,730 [INFO] Sampling negative links for train
+2025-07-14 17:27:10,035 [INFO] Sampling negative links for valid
+2025-07-14 17:27:10,220 [INFO] Sampling negative links for test
+2025-07-14 17:27:22,128 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-14 17:27:59,184 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-14 17:27:59,184 [INFO] 实体数量: 4707, 关系数量: 219
+2025-07-14 17:27:59,186 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/fb237_v4/subgraphs_en_True_neg_1_hop_2
+2025-07-14 17:27:59,484 [INFO] Sampling negative links for train
+2025-07-14 17:28:02,012 [INFO] Sampling negative links for valid
+2025-07-14 17:28:02,492 [INFO] Sampling negative links for test
+2025-07-14 17:28:21,351 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-14 17:43:37,420 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-07-14 17:57:04,220 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-07-14 17:58:15,549 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-07-14 18:00:14,141 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-07-14 18:01:59,910 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-07-14 18:03:59,924 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-07-14 18:05:35,235 [INFO] 子图数据集生成完成
+2025-07-14 18:13:51,474 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-07-14 18:15:54,945 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-07-14 18:17:41,675 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-07-14 18:19:43,242 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-07-14 18:21:31,303 [INFO] 子图数据集生成完成
+2025-07-14 22:12:38,484 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-14 22:12:38,484 [INFO] 实体数量: 2746, 关系数量: 9
+2025-07-14 22:12:38,484 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/WN18RR_v1/subgraphs_en_True_neg_1_hop_2
+2025-07-14 22:12:38,500 [INFO] Sampling negative links for train
+2025-07-14 22:12:38,871 [INFO] Sampling negative links for valid
+2025-07-14 22:12:38,917 [INFO] Sampling negative links for test
+2025-07-14 22:12:50,209 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-14 22:12:50,210 [INFO] 实体数量: 1594, 关系数量: 180
+2025-07-14 22:12:50,210 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/fb237_v1/subgraphs_en_True_neg_1_hop_2
+2025-07-14 22:12:50,282 [INFO] Sampling negative links for train
+2025-07-14 22:12:50,654 [INFO] Sampling negative links for valid
+2025-07-14 22:12:50,723 [INFO] Sampling negative links for test
+2025-07-14 22:12:58,905 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-14 22:13:38,679 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-14 22:13:38,679 [INFO] 实体数量: 2746, 关系数量: 9
+2025-07-14 22:13:38,679 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/WN18RR_v1/subgraphs_en_True_neg_1_hop_2
+2025-07-14 22:13:38,694 [INFO] Sampling negative links for train
+2025-07-14 22:13:39,061 [INFO] Sampling negative links for valid
+2025-07-14 22:13:39,107 [INFO] Sampling negative links for test
+2025-07-14 22:13:40,147 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-14 22:13:54,118 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-07-14 22:14:07,781 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-07-14 22:14:09,518 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-07-14 22:14:11,258 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-07-14 22:14:12,999 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-07-14 22:14:14,762 [INFO] 子图数据集生成完成
+2025-07-14 22:38:33,152 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-14 22:38:33,152 [INFO] 实体数量: 6954, 关系数量: 10
+2025-07-14 22:38:33,152 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/WN18RR_v2/subgraphs_en_True_neg_1_hop_2
+2025-07-14 22:38:33,282 [INFO] Sampling negative links for train
+2025-07-14 22:38:34,313 [INFO] Sampling negative links for valid
+2025-07-14 22:38:34,442 [INFO] Sampling negative links for test
+2025-07-14 22:38:36,011 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-14 22:39:35,356 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-07-14 22:40:32,895 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-07-14 22:40:40,042 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-07-14 22:40:47,093 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-07-14 22:40:54,451 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-07-14 22:41:01,640 [INFO] 子图数据集生成完成
+2025-07-15 14:52:39,739 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-15 14:52:39,739 [INFO] 实体数量: 12078, 关系数量: 11
+2025-07-15 14:52:39,739 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/WN18RR_v3/subgraphs_en_True_neg_1_hop_2
+2025-07-15 14:52:39,803 [INFO] Sampling negative links for train
+2025-07-15 14:52:41,073 [INFO] Sampling negative links for valid
+2025-07-15 14:52:41,218 [INFO] Sampling negative links for test
+2025-07-15 14:52:43,231 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-15 14:54:23,714 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-15 14:54:23,714 [INFO] 实体数量: 3861, 关系数量: 9
+2025-07-15 14:54:23,714 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/WN18RR_v4/subgraphs_en_True_neg_1_hop_2
+2025-07-15 14:54:23,763 [INFO] Sampling negative links for train
+2025-07-15 14:54:24,571 [INFO] Sampling negative links for valid
+2025-07-15 14:54:24,682 [INFO] Sampling negative links for test
+2025-07-15 14:54:26,519 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-15 14:54:54,001 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-07-15 14:55:00,832 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-07-15 14:55:34,980 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-07-15 14:55:39,338 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-07-15 14:55:43,627 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-07-15 14:55:48,086 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-07-15 14:55:52,291 [INFO] 子图数据集生成完成
+2025-07-15 14:57:13,733 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-07-15 14:57:26,392 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-07-15 14:57:39,153 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-07-15 14:57:51,819 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-07-15 14:58:04,441 [INFO] 子图数据集生成完成
+2025-07-15 15:46:22,451 [INFO] 实体和关系映射已保存到 ./roughsets/output
+2025-07-15 15:46:22,451 [INFO] 实体数量: 1594, 关系数量: 180
+2025-07-15 15:46:22,451 [INFO] 开始生成子图数据集，保存到 /home/featurize/grail+粗糙集+Agent/data/fb237_v1/subgraphs_en_True_neg_1_hop_2
+2025-07-15 15:46:22,494 [INFO] Sampling negative links for train
+2025-07-15 15:46:22,711 [INFO] Sampling negative links for valid
+2025-07-15 15:46:22,756 [INFO] Sampling negative links for test
+2025-07-15 15:46:28,201 [INFO] Extracting enclosing subgraphs for positive links in train set
+2025-07-15 15:47:35,356 [INFO] Extracting enclosing subgraphs for negative links in train set
+2025-07-15 15:48:37,295 [INFO] Extracting enclosing subgraphs for positive links in valid set
+2025-07-15 15:48:44,639 [INFO] Extracting enclosing subgraphs for negative links in valid set
+2025-07-15 15:48:51,486 [INFO] Extracting enclosing subgraphs for positive links in test set
+2025-07-15 15:48:58,831 [INFO] Extracting enclosing subgraphs for negative links in test set
+2025-07-15 15:49:06,089 [INFO] 子图数据集生成完成

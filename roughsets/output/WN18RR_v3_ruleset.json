@@ -1,0 +1,243 @@
+[
+  {
+    "type": "path",
+    "relation": "_hypernym",
+    "path": [
+      "_hypernym"
+    ],
+    "confidence": 0.984251968503937,
+    "support": 1651,
+    "id": 0,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_hypernym",
+    "path": [
+      "_verb_group",
+      "_verb_group",
+      "_hypernym"
+    ],
+    "confidence": 0.7317073170731707,
+    "support": 82,
+    "id": 1,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_hypernym",
+    "path": [
+      "_hypernym",
+      "_verb_group",
+      "_verb_group"
+    ],
+    "confidence": 0.7076923076923077,
+    "support": 65,
+    "id": 2,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_instance_hypernym",
+    "path": [
+      "_instance_hypernym"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 3,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_similar_to",
+    "path": [
+      "_similar_to"
+    ],
+    "confidence": 1.0,
+    "support": 9,
+    "id": 4,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_similar_to",
+    "path": [
+      "_similar_to",
+      "_similar_to",
+      "_similar_to"
+    ],
+    "confidence": 0.7777777777777778,
+    "support": 9,
+    "id": 5,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_verb_group",
+    "path": [
+      "_verb_group"
+    ],
+    "confidence": 0.8176100628930818,
+    "support": 159,
+    "id": 6,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.9411764705882353,
+    "support": 102,
+    "id": 7,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_has_part",
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.75,
+    "support": 4,
+    "id": 8,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_synset_domain_topic_of",
+      "_synset_domain_topic_of",
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.75,
+    "support": 4,
+    "id": 9,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_synset_domain_topic_of",
+      "_derivationally_related_form",
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.6875,
+    "support": 16,
+    "id": 10,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_synset_domain_topic_of",
+      "_has_part",
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.6470588235294118,
+    "support": 17,
+    "id": 11,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_hypernym",
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.6,
+    "support": 10,
+    "id": 12,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_hypernym",
+    "head_type": "00007846",
+    "tail_type": "00004475",
+    "confidence": 1.0,
+    "support": 116,
+    "id": 13,
+    "conflicts": [
+      14
+    ]
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_hypernym",
+    "head_type": "00007846",
+    "tail_type": "00007347",
+    "confidence": 1.0,
+    "support": 116,
+    "id": 14,
+    "conflicts": [
+      13
+    ]
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_hypernym",
+    "head_type": "11567411",
+    "tail_type": "08108972",
+    "confidence": 1.0,
+    "support": 92,
+    "id": 15,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_hypernym",
+    "head_type": "11579418",
+    "tail_type": "11567411",
+    "confidence": 1.0,
+    "support": 81,
+    "id": 16,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_hypernym",
+    "head_type": "11585340",
+    "tail_type": "11567411",
+    "confidence": 1.0,
+    "support": 58,
+    "id": 17,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_synset_domain_topic_of",
+    "head_type": "00952963",
+    "tail_type": "08208016",
+    "confidence": 1.0,
+    "support": 4,
+    "id": 18,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_member_meronym",
+    "head_type": "11562747",
+    "tail_type": "11567411",
+    "confidence": 0.7428571428571429,
+    "support": 52,
+    "id": 19,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_member_meronym",
+    "head_type": "11566230",
+    "tail_type": "11579418",
+    "confidence": 0.6019417475728155,
+    "support": 62,
+    "id": 20,
+    "conflicts": []
+  }
+]

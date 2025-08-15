@@ -1,0 +1,862 @@
+[
+  {
+    "type": "path",
+    "relation": "/award/award_winner/awards_won./award/award_honor/award_winner",
+    "path": [
+      "/award/award_winner/awards_won./award/award_honor/award_winner"
+    ],
+    "confidence": 0.7407407407407407,
+    "support": 27,
+    "id": 0,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/draft",
+    "path": [
+      "/sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/draft"
+    ],
+    "confidence": 0.5,
+    "support": 6,
+    "id": 1,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/government/legislative_session/members./government/government_position_held/district_represented",
+    "path": [
+      "/government/legislative_session/members./government/government_position_held/district_represented"
+    ],
+    "confidence": 0.625,
+    "support": 8,
+    "id": 2,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/actor/dubbing_performances./film/dubbing_performance/language",
+    "path": [
+      "/film/actor/dubbing_performances./film/dubbing_performance/language",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study"
+    ],
+    "confidence": 0.5,
+    "support": 8,
+    "id": 3,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/languages",
+    "path": [
+      "/people/person/languages"
+    ],
+    "confidence": 1.0,
+    "support": 10,
+    "id": 4,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/languages",
+    "path": [
+      "/people/person/languages",
+      "/education/field_of_study/students_majoring./education/education/student",
+      "/people/person/languages"
+    ],
+    "confidence": 1.0,
+    "support": 10,
+    "id": 5,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/languages",
+    "path": [
+      "/people/person/languages",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study"
+    ],
+    "confidence": 0.5,
+    "support": 20,
+    "id": 6,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/country",
+    "path": [
+      "/film/film/country",
+      "/location/location/contains",
+      "/base/biblioness/bibs_location/country"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 7,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/country",
+    "path": [
+      "/film/film/country",
+      "/location/location/contains",
+      "/location/administrative_division/first_level_division_of"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 8,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/country",
+    "path": [
+      "/film/film/country"
+    ],
+    "confidence": 0.875,
+    "support": 8,
+    "id": 9,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/country",
+    "path": [
+      "/film/film/country",
+      "/military/military_combatant/military_conflicts./military/military_combatant_group/combatants",
+      "/military/military_combatant/military_conflicts./military/military_combatant_group/combatants"
+    ],
+    "confidence": 0.7777777777777778,
+    "support": 9,
+    "id": 10,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/country",
+    "path": [
+      "/film/film/country",
+      "/location/location/contains",
+      "/location/administrative_division/country"
+    ],
+    "confidence": 0.5,
+    "support": 10,
+    "id": 11,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/music/genre/artists",
+    "path": [
+      "/music/genre/artists"
+    ],
+    "confidence": 0.5882352941176471,
+    "support": 17,
+    "id": 12,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/tv/tv_program/regular_cast./tv/regular_tv_appearance/actor",
+    "path": [
+      "/tv/tv_program/regular_cast./tv/regular_tv_appearance/actor"
+    ],
+    "confidence": 0.8,
+    "support": 5,
+    "id": 13,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/base/popstra/celebrity/dated./base/popstra/dated/participant",
+    "path": [
+      "/base/popstra/celebrity/dated./base/popstra/dated/participant"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 14,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_language",
+    "path": [
+      "/base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_language",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study"
+    ],
+    "confidence": 0.5,
+    "support": 6,
+    "id": 15,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/location/location/adjoin_s./location/adjoining_relationship/adjoins",
+    "path": [
+      "/location/location/adjoin_s./location/adjoining_relationship/adjoins"
+    ],
+    "confidence": 1.0,
+    "support": 6,
+    "id": 16,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/location/location/adjoin_s./location/adjoining_relationship/adjoins",
+    "path": [
+      "/location/location/adjoin_s./location/adjoining_relationship/adjoins",
+      "/location/location/adjoin_s./location/adjoining_relationship/adjoins",
+      "/location/location/adjoin_s./location/adjoining_relationship/adjoins"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 17,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/award/award_nominee/award_nominations./award/award_nomination/award",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/award"
+    ],
+    "confidence": 0.7346938775510204,
+    "support": 49,
+    "id": 18,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/spouse_s./people/marriage/type_of_union",
+    "path": [
+      "/people/person/spouse_s./people/marriage/type_of_union"
+    ],
+    "confidence": 1.0,
+    "support": 54,
+    "id": 19,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/spouse_s./people/marriage/type_of_union",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/people/person/spouse_s./people/marriage/type_of_union"
+    ],
+    "confidence": 0.7142857142857143,
+    "support": 7,
+    "id": 20,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/spouse_s./people/marriage/type_of_union",
+    "path": [
+      "/award/award_winner/awards_won./award/award_honor/award_winner",
+      "/award/award_winner/awards_won./award/award_honor/award_winner",
+      "/people/person/spouse_s./people/marriage/type_of_union"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 6,
+    "id": 21,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/spouse_s./people/marriage/type_of_union",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/people/person/spouse_s./people/marriage/type_of_union"
+    ],
+    "confidence": 0.5294117647058824,
+    "support": 17,
+    "id": 22,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/location/location/contains",
+    "path": [
+      "/military/military_combatant/military_conflicts./military/military_combatant_group/combatants",
+      "/military/military_combatant/military_conflicts./military/military_combatant_group/combatants",
+      "/location/location/contains"
+    ],
+    "confidence": 0.5,
+    "support": 32,
+    "id": 23,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/location/location/contains",
+    "path": [
+      "/location/location/contains",
+      "/location/administrative_division/first_level_division_of",
+      "/location/location/contains"
+    ],
+    "confidence": 0.5,
+    "support": 32,
+    "id": 24,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/actor/film./film/performance/film",
+    "path": [
+      "/film/actor/film./film/performance/film"
+    ],
+    "confidence": 0.7142857142857143,
+    "support": 42,
+    "id": 25,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/location/location/time_zones",
+    "path": [
+      "/location/location/time_zones"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 26,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/base/popstra/celebrity/friendship./base/popstra/friendship/participant",
+    "path": [
+      "/base/popstra/celebrity/friendship./base/popstra/friendship/participant"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 27,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/director/film",
+    "path": [
+      "/film/director/film"
+    ],
+    "confidence": 0.7142857142857143,
+    "support": 7,
+    "id": 28,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/language",
+    "path": [
+      "/film/film/language",
+      "/education/field_of_study/students_majoring./education/education/student",
+      "/people/person/languages"
+    ],
+    "confidence": 1.0,
+    "support": 31,
+    "id": 29,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/language",
+    "path": [
+      "/film/film/language"
+    ],
+    "confidence": 0.96875,
+    "support": 32,
+    "id": 30,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/language",
+    "path": [
+      "/film/film/language",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study"
+    ],
+    "confidence": 0.5,
+    "support": 62,
+    "id": 31,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/language",
+    "path": [
+      "/film/film/genre",
+      "/media_common/netflix_genre/titles",
+      "/tv/tv_program/languages"
+    ],
+    "confidence": 0.5,
+    "support": 28,
+    "id": 32,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/location/statistical_region/religions./location/religion_percentage/religion",
+    "path": [
+      "/location/statistical_region/religions./location/religion_percentage/religion"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 6,
+    "id": 33,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/location/statistical_region/religions./location/religion_percentage/religion",
+    "path": [
+      "/location/location/contains",
+      "/organization/organization/headquarters./location/mailing_address/state_province_region",
+      "/location/statistical_region/religions./location/religion_percentage/religion"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 6,
+    "id": 34,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/genre",
+    "path": [
+      "/film/film/genre"
+    ],
+    "confidence": 0.7674418604651163,
+    "support": 43,
+    "id": 35,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/places_lived./people/place_lived/location",
+    "path": [
+      "/people/person/places_lived./people/place_lived/location"
+    ],
+    "confidence": 1.0,
+    "support": 7,
+    "id": 36,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/music/performance_role/regular_performances./music/group_membership/role",
+    "path": [
+      "/music/performance_role/regular_performances./music/group_membership/role"
+    ],
+    "confidence": 0.5,
+    "support": 8,
+    "id": 37,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/education/educational_institution/students_graduates./education/education/major_field_of_study",
+    "path": [
+      "/education/educational_institution/students_graduates./education/education/major_field_of_study"
+    ],
+    "confidence": 0.8571428571428571,
+    "support": 7,
+    "id": 38,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/education/educational_institution/students_graduates./education/education/major_field_of_study",
+    "path": [
+      "/education/educational_institution/students_graduates./education/education/major_field_of_study",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study"
+    ],
+    "confidence": 0.5,
+    "support": 6,
+    "id": 39,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/music/performance_role/track_performances./music/track_contribution/role",
+    "path": [
+      "/music/performance_role/guest_performances./music/recording_contribution/performance_role",
+      "/music/performance_role/guest_performances./music/recording_contribution/performance_role",
+      "/music/performance_role/track_performances./music/track_contribution/role"
+    ],
+    "confidence": 0.55,
+    "support": 20,
+    "id": 40,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/music/performance_role/track_performances./music/track_contribution/role",
+    "path": [
+      "/music/performance_role/track_performances./music/track_contribution/role"
+    ],
+    "confidence": 0.5,
+    "support": 32,
+    "id": 41,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/music/artist/track_contributions./music/track_contribution/role",
+    "path": [
+      "/music/artist/track_contributions./music/track_contribution/role"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 6,
+    "id": 42,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/profession",
+    "path": [
+      "/people/person/profession"
+    ],
+    "confidence": 0.918918918918919,
+    "support": 37,
+    "id": 43,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/profession",
+    "path": [
+      "/people/person/languages",
+      "/education/field_of_study/students_majoring./education/education/student",
+      "/people/person/profession"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 6,
+    "id": 44,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/profession",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/people/person/profession"
+    ],
+    "confidence": 0.6,
+    "support": 5,
+    "id": 45,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/tv/tv_program/languages",
+    "path": [
+      "/tv/tv_program/languages",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study",
+      "/education/field_of_study/students_majoring./education/education/major_field_of_study"
+    ],
+    "confidence": 0.5,
+    "support": 8,
+    "id": 46,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/award/award_winning_work/awards_won./award/award_honor/award",
+    "path": [
+      "/award/award_winning_work/awards_won./award/award_honor/award"
+    ],
+    "confidence": 0.8571428571428571,
+    "support": 7,
+    "id": 47,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/religion",
+    "path": [
+      "/people/person/religion"
+    ],
+    "confidence": 1.0,
+    "support": 13,
+    "id": 48,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/religion",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/people/person/religion"
+    ],
+    "confidence": 0.5714285714285714,
+    "support": 7,
+    "id": 49,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/award/award_ceremony/awards_presented./award/award_honor/award_winner",
+    "path": [
+      "/award/award_ceremony/awards_presented./award/award_honor/award_winner",
+      "/award/award_winner/awards_won./award/award_honor/award_winner",
+      "/award/award_winner/awards_won./award/award_honor/award_winner"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 9,
+    "id": 50,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/award/award_ceremony/awards_presented./award/award_honor/award_winner",
+    "path": [
+      "/award/award_ceremony/awards_presented./award/award_honor/award_winner"
+    ],
+    "confidence": 0.5882352941176471,
+    "support": 34,
+    "id": 51,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country",
+    "path": [
+      "/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country",
+      "/location/location/contains",
+      "/base/biblioness/bibs_location/country"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 6,
+    "id": 52,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country",
+    "path": [
+      "/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country",
+      "/location/location/contains",
+      "/location/administrative_division/first_level_division_of"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 6,
+    "id": 53,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/nationality",
+    "path": [
+      "/people/person/nationality"
+    ],
+    "confidence": 1.0,
+    "support": 9,
+    "id": 54,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/nationality",
+    "path": [
+      "/people/person/nationality",
+      "/media_common/netflix_genre/titles",
+      "/film/film/country"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 12,
+    "id": 55,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/nationality",
+    "path": [
+      "/people/person/nationality",
+      "/location/location/contains",
+      "/base/biblioness/bibs_location/country"
+    ],
+    "confidence": 0.5714285714285714,
+    "support": 14,
+    "id": 56,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/nationality",
+    "path": [
+      "/people/person/nationality",
+      "/location/location/contains",
+      "/location/administrative_division/country"
+    ],
+    "confidence": 0.5,
+    "support": 16,
+    "id": 57,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/nationality",
+    "path": [
+      "/people/person/nationality",
+      "/location/location/adjoin_s./location/adjoining_relationship/adjoins",
+      "/location/location/adjoin_s./location/adjoining_relationship/adjoins"
+    ],
+    "confidence": 0.5,
+    "support": 12,
+    "id": 58,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/nationality",
+    "path": [
+      "/people/person/nationality",
+      "/location/location/contains",
+      "/base/aareas/schema/administrative_area/administrative_parent"
+    ],
+    "confidence": 0.5,
+    "support": 12,
+    "id": 59,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/award/award_winning_work/awards_won./award/award_honor/award_winner",
+    "path": [
+      "/award/award_winning_work/awards_won./award/award_honor/award_winner"
+    ],
+    "confidence": 0.6363636363636364,
+    "support": 11,
+    "id": 60,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/other_crew./film/film_crew_gig/film_crew_role",
+    "path": [
+      "/film/film/other_crew./film/film_crew_gig/film_crew_role"
+    ],
+    "confidence": 1.0,
+    "support": 16,
+    "id": 61,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/gender",
+    "path": [
+      "/people/person/gender"
+    ],
+    "confidence": 1.0,
+    "support": 71,
+    "id": 62,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/gender",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/award/award_winner/awards_won./award/award_honor/award_winner",
+      "/people/person/gender"
+    ],
+    "confidence": 0.7777777777777778,
+    "support": 9,
+    "id": 63,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/gender",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/people/person/gender"
+    ],
+    "confidence": 0.7692307692307693,
+    "support": 13,
+    "id": 64,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/person/gender",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "/people/person/gender"
+    ],
+    "confidence": 0.5185185185185185,
+    "support": 27,
+    "id": 65,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/people/ethnicity/people",
+    "path": [
+      "/people/ethnicity/people"
+    ],
+    "confidence": 0.5,
+    "support": 18,
+    "id": 66,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/produced_by",
+    "path": [
+      "/film/film/produced_by"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 67,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/award/award_nominee/award_nominations./award/award_nomination/nominated_for",
+    "path": [
+      "/award/award_nominee/award_nominations./award/award_nomination/nominated_for"
+    ],
+    "confidence": 0.8235294117647058,
+    "support": 17,
+    "id": 68,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/film/film/film_format",
+    "path": [
+      "/film/film/film_format"
+    ],
+    "confidence": 1.0,
+    "support": 5,
+    "id": 69,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/education/educational_institution/students_graduates./education/education/student",
+    "path": [
+      "/education/educational_institution/students_graduates./education/education/student"
+    ],
+    "confidence": 0.6923076923076923,
+    "support": 13,
+    "id": 70,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "/tv/tv_program/genre",
+    "path": [
+      "/tv/tv_program/genre"
+    ],
+    "confidence": 0.5,
+    "support": 10,
+    "id": 71,
+    "conflicts": []
+  }
+]

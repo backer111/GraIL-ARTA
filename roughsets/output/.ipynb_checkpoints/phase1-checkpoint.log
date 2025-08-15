@@ -1,0 +1,494 @@
+2025-06-13 16:34:07,042 [INFO] Starting Phase 1 for dataset: fb237_v1
+2025-06-13 16:34:07,043 [INFO] Arguments: Namespace(batch_size=64, confidence_threshold=0.7, cpu=False, dataset='fb237_v1', embedding_dim=32, epochs=10, learning_rate=0.01, max_path_length=3, max_rules_per_relation=100, output_dir='./roughsets/output', support_threshold=5, verbose=True)
+2025-06-13 16:34:07,060 [INFO] Step 1: Mining rules from knowledge graph
+2025-06-13 16:34:07,060 [INFO] Loading knowledge graph from data/fb237_v1/train.txt
+2025-06-13 16:34:07,060 [INFO] Detected FB15K237 dataset format
+2025-06-13 16:34:07,074 [INFO] Loaded 4245 triples with 1594 entities and 180 relations
+2025-06-13 16:34:07,074 [INFO] Extracting path pattern rules
+2025-06-13 16:34:07,074 [INFO] Mining rules for relation: /sports/sports_position/players./sports/sports_team_roster/team with 8 triples
+2025-06-13 16:34:07,074 [INFO] Found 0 valid rules for /sports/sports_position/players./sports/sports_team_roster/team
+2025-06-13 16:34:07,075 [INFO] Mining rules for relation: /people/marriage_union_type/unions_of_this_type./people/marriage/location_of_ceremony with 35 triples
+2025-06-13 16:34:07,081 [INFO] Found 0 valid rules for /people/marriage_union_type/unions_of_this_type./people/marriage/location_of_ceremony
+2025-06-13 16:34:07,081 [INFO] Mining rules for relation: /tv/tv_program/regular_cast./tv/regular_tv_appearance/actor with 21 triples
+2025-06-13 16:34:07,084 [INFO] Found 0 valid rules for /tv/tv_program/regular_cast./tv/regular_tv_appearance/actor
+2025-06-13 16:34:07,084 [INFO] Mining rules for relation: /award/award_category/nominees./award/award_nomination/nominated_for with 88 triples
+2025-06-13 16:34:07,122 [INFO] Found 0 valid rules for /award/award_category/nominees./award/award_nomination/nominated_for
+2025-06-13 16:34:07,122 [INFO] Mining rules for relation: /film/film/country with 24 triples
+2025-06-13 16:34:07,127 [INFO] Found 1 valid rules for /film/film/country
+2025-06-13 16:34:07,127 [INFO] Mining rules for relation: /people/person/places_lived./people/place_lived/location with 46 triples
+2025-06-13 16:34:07,134 [INFO] Found 1 valid rules for /people/person/places_lived./people/place_lived/location
+2025-06-13 16:34:07,134 [INFO] Mining rules for relation: /film/film/genre with 161 triples
+2025-06-13 16:34:07,159 [INFO] Found 1 valid rules for /film/film/genre
+2025-06-13 16:34:07,159 [INFO] Mining rules for relation: /education/educational_degree/people_with_this_degree./education/education/student with 13 triples
+2025-06-13 16:34:07,161 [INFO] Found 0 valid rules for /education/educational_degree/people_with_this_degree./education/education/student
+2025-06-13 16:34:07,161 [INFO] Mining rules for relation: /location/country/official_language with 6 triples
+2025-06-13 16:34:07,162 [INFO] Found 0 valid rules for /location/country/official_language
+2025-06-13 16:34:07,162 [INFO] Mining rules for relation: /music/genre/parent_genre with 9 triples
+2025-06-13 16:34:07,163 [INFO] Found 0 valid rules for /music/genre/parent_genre
+2025-06-13 16:34:07,163 [INFO] Mining rules for relation: /sports/pro_athlete/teams./sports/sports_team_roster/team with 16 triples
+2025-06-13 16:34:07,163 [INFO] Found 0 valid rules for /sports/pro_athlete/teams./sports/sports_team_roster/team
+2025-06-13 16:34:07,164 [INFO] Mining rules for relation: /music/performance_role/regular_performances./music/group_membership/role with 23 triples
+2025-06-13 16:34:07,170 [INFO] Found 0 valid rules for /music/performance_role/regular_performances./music/group_membership/role
+2025-06-13 16:34:07,171 [INFO] Mining rules for relation: /award/award_ceremony/awards_presented./award/award_honor/honored_for with 10 triples
+2025-06-13 16:34:07,172 [INFO] Found 0 valid rules for /award/award_ceremony/awards_presented./award/award_honor/honored_for
+2025-06-13 16:34:07,173 [INFO] Mining rules for relation: /people/person/spouse_s./people/marriage/type_of_union with 270 triples
+2025-06-13 16:34:07,211 [INFO] Found 3 valid rules for /people/person/spouse_s./people/marriage/type_of_union
+2025-06-13 16:34:07,211 [INFO] Mining rules for relation: /base/biblioness/bibs_location/country with 10 triples
+2025-06-13 16:34:07,212 [INFO] Found 0 valid rules for /base/biblioness/bibs_location/country
+2025-06-13 16:34:07,213 [INFO] Mining rules for relation: /organization/organization/headquarters./location/mailing_address/citytown with 9 triples
+2025-06-13 16:34:07,213 [INFO] Found 0 valid rules for /organization/organization/headquarters./location/mailing_address/citytown
+2025-06-13 16:34:07,213 [INFO] Mining rules for relation: /people/person/employment_history./business/employment_tenure/company with 5 triples
+2025-06-13 16:34:07,213 [INFO] Found 0 valid rules for /people/person/employment_history./business/employment_tenure/company
+2025-06-13 16:34:07,214 [INFO] Mining rules for relation: /base/aareas/schema/administrative_area/administrative_parent with 8 triples
+2025-06-13 16:34:07,214 [INFO] Found 0 valid rules for /base/aareas/schema/administrative_area/administrative_parent
+2025-06-13 16:34:07,215 [INFO] Mining rules for relation: /award/award_ceremony/awards_presented./award/award_honor/award_winner with 37 triples
+2025-06-13 16:34:07,221 [INFO] Found 0 valid rules for /award/award_ceremony/awards_presented./award/award_honor/award_winner
+2025-06-13 16:34:07,221 [INFO] Mining rules for relation: /business/business_operation/industry with 13 triples
+2025-06-13 16:34:07,222 [INFO] Found 0 valid rules for /business/business_operation/industry
+2025-06-13 16:34:07,222 [INFO] Mining rules for relation: /film/film/release_date_s./film/film_regional_release_date/film_release_region with 210 triples
+2025-06-13 16:34:07,269 [INFO] Found 0 valid rules for /film/film/release_date_s./film/film_regional_release_date/film_release_region
+2025-06-13 16:34:07,270 [INFO] Mining rules for relation: /sports/sports_league_draft/picks./sports/sports_league_draft_pick/school with 10 triples
+2025-06-13 16:34:07,270 [INFO] Found 0 valid rules for /sports/sports_league_draft/picks./sports/sports_league_draft_pick/school
+2025-06-13 16:34:07,270 [INFO] Mining rules for relation: /business/job_title/people_with_this_title./business/employment_tenure/company with 7 triples
+2025-06-13 16:34:07,271 [INFO] Found 0 valid rules for /business/job_title/people_with_this_title./business/employment_tenure/company
+2025-06-13 16:34:07,271 [INFO] Mining rules for relation: /location/administrative_division/country with 9 triples
+2025-06-13 16:34:07,272 [INFO] Found 0 valid rules for /location/administrative_division/country
+2025-06-13 16:34:07,272 [INFO] Mining rules for relation: /travel/travel_destination/how_to_get_here./travel/transportation/mode_of_transportation with 6 triples
+2025-06-13 16:34:07,272 [INFO] Found 0 valid rules for /travel/travel_destination/how_to_get_here./travel/transportation/mode_of_transportation
+2025-06-13 16:34:07,273 [INFO] Mining rules for relation: /education/educational_institution/students_graduates./education/education/major_field_of_study with 27 triples
+2025-06-13 16:34:07,273 [INFO] Found 0 valid rules for /education/educational_institution/students_graduates./education/education/major_field_of_study
+2025-06-13 16:34:07,274 [INFO] Mining rules for relation: /organization/organization/headquarters./location/mailing_address/state_province_region with 19 triples
+2025-06-13 16:34:07,276 [INFO] Found 0 valid rules for /organization/organization/headquarters./location/mailing_address/state_province_region
+2025-06-13 16:34:07,276 [INFO] Mining rules for relation: /film/film/produced_by with 23 triples
+2025-06-13 16:34:07,279 [INFO] Found 1 valid rules for /film/film/produced_by
+2025-06-13 16:34:07,279 [INFO] Mining rules for relation: /film/film/music with 6 triples
+2025-06-13 16:34:07,281 [INFO] Found 0 valid rules for /film/film/music
+2025-06-13 16:34:07,281 [INFO] Mining rules for relation: /people/person/gender with 351 triples
+2025-06-13 16:34:07,318 [INFO] Found 5 valid rules for /people/person/gender
+2025-06-13 16:34:07,319 [INFO] Mining rules for relation: /sports/sports_team/colors with 6 triples
+2025-06-13 16:34:07,319 [INFO] Found 0 valid rules for /sports/sports_team/colors
+2025-06-13 16:34:07,319 [INFO] Mining rules for relation: /music/genre/artists with 40 triples
+2025-06-13 16:34:07,321 [INFO] Found 0 valid rules for /music/genre/artists
+2025-06-13 16:34:07,321 [INFO] Mining rules for relation: /base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_language with 15 triples
+2025-06-13 16:34:07,323 [INFO] Found 0 valid rules for /base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_language
+2025-06-13 16:34:07,323 [INFO] Mining rules for relation: /people/person/languages with 50 triples
+2025-06-13 16:34:07,331 [INFO] Found 2 valid rules for /people/person/languages
+2025-06-13 16:34:07,331 [INFO] Mining rules for relation: /baseball/baseball_team/team_stats./baseball/baseball_team_stats/season with 8 triples
+2025-06-13 16:34:07,332 [INFO] Found 0 valid rules for /baseball/baseball_team/team_stats./baseball/baseball_team_stats/season
+2025-06-13 16:34:07,332 [INFO] Mining rules for relation: /location/statistical_region/religions./location/religion_percentage/religion with 10 triples
+2025-06-13 16:34:07,333 [INFO] Found 0 valid rules for /location/statistical_region/religions./location/religion_percentage/religion
+2025-06-13 16:34:07,333 [INFO] Mining rules for relation: /education/educational_degree/people_with_this_degree./education/education/institution with 94 triples
+2025-06-13 16:34:07,345 [INFO] Found 0 valid rules for /education/educational_degree/people_with_this_degree./education/education/institution
+2025-06-13 16:34:07,345 [INFO] Mining rules for relation: /time/event/instance_of_recurring_event with 11 triples
+2025-06-13 16:34:07,345 [INFO] Found 0 valid rules for /time/event/instance_of_recurring_event
+2025-06-13 16:34:07,346 [INFO] Mining rules for relation: /tv/tv_program/genre with 24 triples
+2025-06-13 16:34:07,349 [INFO] Found 1 valid rules for /tv/tv_program/genre
+2025-06-13 16:34:07,349 [INFO] Mining rules for relation: /film/film/other_crew./film/film_crew_gig/crewmember with 5 triples
+2025-06-13 16:34:07,350 [INFO] Found 0 valid rules for /film/film/other_crew./film/film_crew_gig/crewmember
+2025-06-13 16:34:07,351 [INFO] Mining rules for relation: /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend with 5 triples
+2025-06-13 16:34:07,352 [INFO] Found 0 valid rules for /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend
+2025-06-13 16:34:07,352 [INFO] Mining rules for relation: /military/military_combatant/military_conflicts./military/military_combatant_group/combatants with 8 triples
+2025-06-13 16:34:07,353 [INFO] Found 0 valid rules for /military/military_combatant/military_conflicts./military/military_combatant_group/combatants
+2025-06-13 16:34:07,353 [INFO] Mining rules for relation: /film/film_distributor/films_distributed./film/film_film_distributor_relationship/film with 14 triples
+2025-06-13 16:34:07,357 [INFO] Found 0 valid rules for /film/film_distributor/films_distributed./film/film_film_distributor_relationship/film
+2025-06-13 16:34:07,358 [INFO] Mining rules for relation: /film/film/other_crew./film/film_crew_gig/film_crew_role with 78 triples
+2025-06-13 16:34:07,366 [INFO] Found 1 valid rules for /film/film/other_crew./film/film_crew_gig/film_crew_role
+2025-06-13 16:34:07,367 [INFO] Mining rules for relation: /film/actor/film./film/performance/film with 130 triples
+2025-06-13 16:34:07,391 [INFO] Found 1 valid rules for /film/actor/film./film/performance/film
+2025-06-13 16:34:07,391 [INFO] Mining rules for relation: /education/educational_institution/students_graduates./education/education/student with 34 triples
+2025-06-13 16:34:07,393 [INFO] Found 1 valid rules for /education/educational_institution/students_graduates./education/education/student
+2025-06-13 16:34:07,393 [INFO] Mining rules for relation: /award/award_winning_work/awards_won./award/award_honor/honored_for with 5 triples
+2025-06-13 16:34:07,394 [INFO] Found 0 valid rules for /award/award_winning_work/awards_won./award/award_honor/honored_for
+2025-06-13 16:34:07,394 [INFO] Mining rules for relation: /food/food/nutrients./food/nutrition_fact/nutrient with 24 triples
+2025-06-13 16:34:07,395 [INFO] Found 0 valid rules for /food/food/nutrients./food/nutrition_fact/nutrient
+2025-06-13 16:34:07,395 [INFO] Mining rules for relation: /award/award_nominee/award_nominations./award/award_nomination/nominated_for with 78 triples
+2025-06-13 16:34:07,411 [INFO] Found 0 valid rules for /award/award_nominee/award_nominations./award/award_nomination/nominated_for
+2025-06-13 16:34:07,411 [INFO] Mining rules for relation: /tv/tv_producer/programs_produced./tv/tv_producer_term/program with 10 triples
+2025-06-13 16:34:07,412 [INFO] Found 0 valid rules for /tv/tv_producer/programs_produced./tv/tv_producer_term/program
+2025-06-13 16:34:07,413 [INFO] Mining rules for relation: /music/instrument/instrumentalists with 10 triples
+2025-06-13 16:34:07,416 [INFO] Found 0 valid rules for /music/instrument/instrumentalists
+2025-06-13 16:34:07,416 [INFO] Mining rules for relation: /government/legislative_session/members./government/government_position_held/district_represented with 14 triples
+2025-06-13 16:34:07,417 [INFO] Found 0 valid rules for /government/legislative_session/members./government/government_position_held/district_represented
+2025-06-13 16:34:07,418 [INFO] Mining rules for relation: /people/cause_of_death/people with 16 triples
+2025-06-13 16:34:07,421 [INFO] Found 0 valid rules for /people/cause_of_death/people
+2025-06-13 16:34:07,421 [INFO] Mining rules for relation: /education/educational_degree/people_with_this_degree./education/education/major_field_of_study with 19 triples
+2025-06-13 16:34:07,424 [INFO] Found 0 valid rules for /education/educational_degree/people_with_this_degree./education/education/major_field_of_study
+2025-06-13 16:34:07,425 [INFO] Mining rules for relation: /location/location/adjoin_s./location/adjoining_relationship/adjoins with 27 triples
+2025-06-13 16:34:07,427 [INFO] Found 1 valid rules for /location/location/adjoin_s./location/adjoining_relationship/adjoins
+2025-06-13 16:34:07,427 [INFO] Mining rules for relation: /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/draft with 15 triples
+2025-06-13 16:34:07,427 [INFO] Found 0 valid rules for /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/draft
+2025-06-13 16:34:07,428 [INFO] Mining rules for relation: /film/actor/dubbing_performances./film/dubbing_performance/language with 16 triples
+2025-06-13 16:34:07,430 [INFO] Found 0 valid rules for /film/actor/dubbing_performances./film/dubbing_performance/language
+2025-06-13 16:34:07,430 [INFO] Mining rules for relation: /base/popstra/celebrity/canoodled./base/popstra/canoodled/participant with 7 triples
+2025-06-13 16:34:07,431 [INFO] Found 0 valid rules for /base/popstra/celebrity/canoodled./base/popstra/canoodled/participant
+2025-06-13 16:34:07,431 [INFO] Mining rules for relation: /travel/travel_destination/climate./travel/travel_destination_monthly_climate/month with 10 triples
+2025-06-13 16:34:07,432 [INFO] Found 0 valid rules for /travel/travel_destination/climate./travel/travel_destination_monthly_climate/month
+2025-06-13 16:34:07,432 [INFO] Mining rules for relation: /base/popstra/celebrity/dated./base/popstra/dated/participant with 24 triples
+2025-06-13 16:34:07,436 [INFO] Found 2 valid rules for /base/popstra/celebrity/dated./base/popstra/dated/participant
+2025-06-13 16:34:07,437 [INFO] Mining rules for relation: /broadcast/content/artist with 5 triples
+2025-06-13 16:34:07,437 [INFO] Found 0 valid rules for /broadcast/content/artist
+2025-06-13 16:34:07,437 [INFO] Mining rules for relation: /film/film/production_companies with 16 triples
+2025-06-13 16:34:07,440 [INFO] Found 0 valid rules for /film/film/production_companies
+2025-06-13 16:34:07,440 [INFO] Mining rules for relation: /base/popstra/location/vacationers./base/popstra/vacation_choice/vacationer with 8 triples
+2025-06-13 16:34:07,442 [INFO] Found 0 valid rules for /base/popstra/location/vacationers./base/popstra/vacation_choice/vacationer
+2025-06-13 16:34:07,442 [INFO] Mining rules for relation: /influence/influence_node/influenced_by with 15 triples
+2025-06-13 16:34:07,443 [INFO] Found 1 valid rules for /influence/influence_node/influenced_by
+2025-06-13 16:34:07,443 [INFO] Mining rules for relation: /education/educational_institution/colors with 6 triples
+2025-06-13 16:34:07,443 [INFO] Found 0 valid rules for /education/educational_institution/colors
+2025-06-13 16:34:07,444 [INFO] Mining rules for relation: /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country with 48 triples
+2025-06-13 16:34:07,452 [INFO] Found 0 valid rules for /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country
+2025-06-13 16:34:07,453 [INFO] Mining rules for relation: /music/performance_role/track_performances./music/track_contribution/role with 47 triples
+2025-06-13 16:34:07,465 [INFO] Found 0 valid rules for /music/performance_role/track_performances./music/track_contribution/role
+2025-06-13 16:34:07,466 [INFO] Mining rules for relation: /government/legislative_session/members./government/government_position_held/legislative_sessions with 5 triples
+2025-06-13 16:34:07,466 [INFO] Found 0 valid rules for /government/legislative_session/members./government/government_position_held/legislative_sessions
+2025-06-13 16:34:07,466 [INFO] Mining rules for relation: /people/person/religion with 63 triples
+2025-06-13 16:34:07,474 [INFO] Found 1 valid rules for /people/person/religion
+2025-06-13 16:34:07,474 [INFO] Mining rules for relation: /people/person/profession with 166 triples
+2025-06-13 16:34:07,489 [INFO] Found 1 valid rules for /people/person/profession
+2025-06-13 16:34:07,490 [INFO] Mining rules for relation: /people/deceased_person/place_of_burial with 6 triples
+2025-06-13 16:34:07,490 [INFO] Found 0 valid rules for /people/deceased_person/place_of_burial
+2025-06-13 16:34:07,490 [INFO] Mining rules for relation: /award/award_winning_work/awards_won./award/award_honor/award_winner with 40 triples
+2025-06-13 16:34:07,498 [INFO] Found 2 valid rules for /award/award_winning_work/awards_won./award/award_honor/award_winner
+2025-06-13 16:34:07,498 [INFO] Mining rules for relation: /base/marchmadness/ncaa_basketball_tournament/seeds./base/marchmadness/ncaa_tournament_seed/team with 8 triples
+2025-06-13 16:34:07,498 [INFO] Found 0 valid rules for /base/marchmadness/ncaa_basketball_tournament/seeds./base/marchmadness/ncaa_tournament_seed/team
+2025-06-13 16:34:07,499 [INFO] Mining rules for relation: /film/director/film with 21 triples
+2025-06-13 16:34:07,503 [INFO] Found 2 valid rules for /film/director/film
+2025-06-13 16:34:07,503 [INFO] Mining rules for relation: /award/award_nominee/award_nominations./award/award_nomination/award_nominee with 287 triples
+2025-06-13 16:34:07,584 [INFO] Found 0 valid rules for /award/award_nominee/award_nominations./award/award_nomination/award_nominee
+2025-06-13 16:34:07,584 [INFO] Mining rules for relation: /tv/tv_program/languages with 20 triples
+2025-06-13 16:34:07,587 [INFO] Found 0 valid rules for /tv/tv_program/languages
+2025-06-13 16:34:07,587 [INFO] Mining rules for relation: /award/award_winner/awards_won./award/award_honor/award_winner with 120 triples
+2025-06-13 16:34:07,613 [INFO] Found 0 valid rules for /award/award_winner/awards_won./award/award_honor/award_winner
+2025-06-13 16:34:07,613 [INFO] Mining rules for relation: /film/film/executive_produced_by with 12 triples
+2025-06-13 16:34:07,615 [INFO] Found 0 valid rules for /film/film/executive_produced_by
+2025-06-13 16:34:07,615 [INFO] Mining rules for relation: /award/award_winning_work/awards_won./award/award_honor/award with 27 triples
+2025-06-13 16:34:07,620 [INFO] Found 1 valid rules for /award/award_winning_work/awards_won./award/award_honor/award
+2025-06-13 16:34:07,621 [INFO] Mining rules for relation: /award/award_category/winners./award/award_honor/ceremony with 20 triples
+2025-06-13 16:34:07,624 [INFO] Found 0 valid rules for /award/award_category/winners./award/award_honor/ceremony
+2025-06-13 16:34:07,624 [INFO] Mining rules for relation: /film/film/language with 153 triples
+2025-06-13 16:34:07,648 [INFO] Found 3 valid rules for /film/film/language
+2025-06-13 16:34:07,648 [INFO] Mining rules for relation: /film/film/story_by with 5 triples
+2025-06-13 16:34:07,649 [INFO] Found 0 valid rules for /film/film/story_by
+2025-06-13 16:34:07,649 [INFO] Mining rules for relation: /people/ethnicity/people with 21 triples
+2025-06-13 16:34:07,652 [INFO] Found 0 valid rules for /people/ethnicity/people
+2025-06-13 16:34:07,652 [INFO] Mining rules for relation: /organization/organization_founder/organizations_founded with 5 triples
+2025-06-13 16:34:07,653 [INFO] Found 0 valid rules for /organization/organization_founder/organizations_founded
+2025-06-13 16:34:07,653 [INFO] Mining rules for relation: /base/x2010fifaworldcupsouthafrica/world_cup_squad/current_world_cup_squad./base/x2010fifaworldcupsouthafrica/current_world_cup_squad/current_club with 5 triples
+2025-06-13 16:34:07,653 [INFO] Found 0 valid rules for /base/x2010fifaworldcupsouthafrica/world_cup_squad/current_world_cup_squad./base/x2010fifaworldcupsouthafrica/current_world_cup_squad/current_club
+2025-06-13 16:34:07,653 [INFO] Mining rules for relation: /tv/tv_writer/tv_programs./tv/tv_program_writer_relationship/tv_program with 5 triples
+2025-06-13 16:34:07,654 [INFO] Found 0 valid rules for /tv/tv_writer/tv_programs./tv/tv_program_writer_relationship/tv_program
+2025-06-13 16:34:07,654 [INFO] Mining rules for relation: /location/location/contains with 78 triples
+2025-06-13 16:34:07,666 [INFO] Found 0 valid rules for /location/location/contains
+2025-06-13 16:34:07,667 [INFO] Mining rules for relation: /sports/sports_team/roster./american_football/football_historical_roster_position/position_s with 5 triples
+2025-06-13 16:34:07,667 [INFO] Found 0 valid rules for /sports/sports_team/roster./american_football/football_historical_roster_position/position_s
+2025-06-13 16:34:07,667 [INFO] Mining rules for relation: /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/school with 8 triples
+2025-06-13 16:34:07,668 [INFO] Found 0 valid rules for /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/school
+2025-06-13 16:34:07,668 [INFO] Mining rules for relation: /base/culturalevent/event/entity_involved with 8 triples
+2025-06-13 16:34:07,669 [INFO] Found 0 valid rules for /base/culturalevent/event/entity_involved
+2025-06-13 16:34:07,669 [INFO] Mining rules for relation: /award/award_nominee/award_nominations./award/award_nomination/award with 156 triples
+2025-06-13 16:34:07,694 [INFO] Found 1 valid rules for /award/award_nominee/award_nominations./award/award_nomination/award
+2025-06-13 16:34:07,694 [INFO] Mining rules for relation: /sports/sports_team/sport with 9 triples
+2025-06-13 16:34:07,694 [INFO] Found 0 valid rules for /sports/sports_team/sport
+2025-06-13 16:34:07,695 [INFO] Mining rules for relation: /award/award_category/winners./award/award_honor/award_winner with 71 triples
+2025-06-13 16:34:07,711 [INFO] Found 0 valid rules for /award/award_category/winners./award/award_honor/award_winner
+2025-06-13 16:34:07,711 [INFO] Mining rules for relation: /location/location/time_zones with 21 triples
+2025-06-13 16:34:07,711 [INFO] Found 1 valid rules for /location/location/time_zones
+2025-06-13 16:34:07,712 [INFO] Mining rules for relation: /music/artist/track_contributions./music/track_contribution/role with 19 triples
+2025-06-13 16:34:07,715 [INFO] Found 0 valid rules for /music/artist/track_contributions./music/track_contribution/role
+2025-06-13 16:34:07,715 [INFO] Mining rules for relation: /base/biblioness/bibs_location/state with 8 triples
+2025-06-13 16:34:07,716 [INFO] Found 0 valid rules for /base/biblioness/bibs_location/state
+2025-06-13 16:34:07,716 [INFO] Mining rules for relation: /film/film/written_by with 7 triples
+2025-06-13 16:34:07,717 [INFO] Found 0 valid rules for /film/film/written_by
+2025-06-13 16:34:07,717 [INFO] Mining rules for relation: /music/performance_role/regular_performances./music/group_membership/group with 11 triples
+2025-06-13 16:34:07,720 [INFO] Found 0 valid rules for /music/performance_role/regular_performances./music/group_membership/group
+2025-06-13 16:34:07,720 [INFO] Mining rules for relation: /film/film/film_format with 22 triples
+2025-06-13 16:34:07,723 [INFO] Found 1 valid rules for /film/film/film_format
+2025-06-13 16:34:07,723 [INFO] Mining rules for relation: /film/film_subject/films with 6 triples
+2025-06-13 16:34:07,724 [INFO] Found 0 valid rules for /film/film_subject/films
+2025-06-13 16:34:07,724 [INFO] Mining rules for relation: /media_common/netflix_genre/titles with 88 triples
+2025-06-13 16:34:07,774 [INFO] Found 0 valid rules for /media_common/netflix_genre/titles
+2025-06-13 16:34:07,775 [INFO] Mining rules for relation: /location/country/form_of_government with 8 triples
+2025-06-13 16:34:07,775 [INFO] Found 0 valid rules for /location/country/form_of_government
+2025-06-13 16:34:07,775 [INFO] Mining rules for relation: /base/popstra/celebrity/friendship./base/popstra/friendship/participant with 24 triples
+2025-06-13 16:34:07,780 [INFO] Found 0 valid rules for /base/popstra/celebrity/friendship./base/popstra/friendship/participant
+2025-06-13 16:34:07,780 [INFO] Mining rules for relation: /language/human_language/countries_spoken_in with 7 triples
+2025-06-13 16:34:07,781 [INFO] Found 0 valid rules for /language/human_language/countries_spoken_in
+2025-06-13 16:34:07,781 [INFO] Mining rules for relation: /military/military_conflict/combatants./military/military_combatant_group/combatants with 8 triples
+2025-06-13 16:34:07,782 [INFO] Found 0 valid rules for /military/military_conflict/combatants./military/military_combatant_group/combatants
+2025-06-13 16:34:07,782 [INFO] Mining rules for relation: /people/person/place_of_birth with 21 triples
+2025-06-13 16:34:07,785 [INFO] Found 0 valid rules for /people/person/place_of_birth
+2025-06-13 16:34:07,785 [INFO] Mining rules for relation: /people/person/nationality with 43 triples
+2025-06-13 16:34:07,792 [INFO] Found 1 valid rules for /people/person/nationality
+2025-06-13 16:34:07,792 [INFO] Mining rules for relation: /music/record_label/artist with 19 triples
+2025-06-13 16:34:07,794 [INFO] Found 0 valid rules for /music/record_label/artist
+2025-06-13 16:34:07,794 [INFO] Mining rules for relation: /soccer/football_player/current_team./sports/sports_team_roster/team with 10 triples
+2025-06-13 16:34:07,794 [INFO] Found 0 valid rules for /soccer/football_player/current_team./sports/sports_team_roster/team
+2025-06-13 16:34:07,795 [INFO] Mining rules for relation: /music/performance_role/guest_performances./music/recording_contribution/performance_role with 6 triples
+2025-06-13 16:34:07,796 [INFO] Found 0 valid rules for /music/performance_role/guest_performances./music/recording_contribution/performance_role
+2025-06-13 16:34:07,796 [INFO] Extracting type constraint rules
+2025-06-13 16:34:07,796 [INFO] Extracted types for 0 entities using 0 type relations
+2025-06-13 16:34:07,796 [WARNING] Not enough entity type information for type constraint rules: 0 < 100
+2025-06-13 16:34:07,796 [INFO] Total rules mined: 36
+2025-06-13 16:34:07,796 [INFO] Found 0 conflicting rule pairs
+2025-06-13 16:34:07,797 [INFO] Saved 36 rules to ./roughsets/output/fb237_v1_ruleset.json
+2025-06-13 16:34:07,797 [INFO] Rule statistics by type: {'path': 36}
+2025-06-13 16:34:07,797 [INFO] Step 2: Learning rule embeddings (device: cuda)
+2025-06-13 16:34:07,798 [INFO] Loaded 36 rules from ./roughsets/output/fb237_v1_ruleset.json
+2025-06-13 16:34:07,798 [INFO] Found 24 distinct relations in ruleset
+2025-06-13 16:34:07,798 [INFO] Training rule embeddings...
+2025-06-13 16:34:14,647 [INFO] Epoch 1/10, Loss: 0.9877
+2025-06-13 16:34:14,660 [INFO] Epoch 5/10, Loss: 0.5498
+2025-06-13 16:34:14,676 [INFO] Epoch 10/10, Loss: 0.1635
+2025-06-13 16:34:14,676 [INFO] Rule embedding training completed
+2025-06-13 16:34:14,680 [INFO] Saved rule embeddings to ./roughsets/output/fb237_v1_rule_embeddings.json
+2025-06-13 16:34:14,681 [INFO] Generated 37 rule embeddings
+2025-06-13 16:34:14,681 [INFO] Generated 24 relation embeddings
+2025-06-13 16:34:14,681 [INFO] Special token: NO_RULE_IDX = 36
+2025-06-13 16:34:14,681 [INFO] Phase 1 completed successfully
+2025-06-13 16:36:36,043 [INFO] Starting Phase 1 for dataset: fb237_v1
+2025-06-13 16:36:36,043 [INFO] Arguments: Namespace(batch_size=64, confidence_threshold=0.6, cpu=False, dataset='fb237_v1', embedding_dim=32, epochs=10, learning_rate=0.01, max_path_length=3, max_rules_per_relation=100, output_dir='./roughsets/output', support_threshold=5, verbose=True)
+2025-06-13 16:36:36,061 [INFO] Step 1: Mining rules from knowledge graph
+2025-06-13 16:36:36,061 [INFO] Loading knowledge graph from data/fb237_v1/train.txt
+2025-06-13 16:36:36,061 [INFO] Detected FB15K237 dataset format
+2025-06-13 16:36:36,075 [INFO] Loaded 4245 triples with 1594 entities and 180 relations
+2025-06-13 16:36:36,075 [INFO] Extracting path pattern rules
+2025-06-13 16:36:36,075 [INFO] Mining rules for relation: /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/school with 8 triples
+2025-06-13 16:36:36,076 [INFO] Found 0 valid rules for /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/school
+2025-06-13 16:36:36,076 [INFO] Mining rules for relation: /language/human_language/countries_spoken_in with 7 triples
+2025-06-13 16:36:36,077 [INFO] Found 0 valid rules for /language/human_language/countries_spoken_in
+2025-06-13 16:36:36,078 [INFO] Mining rules for relation: /film/film/music with 6 triples
+2025-06-13 16:36:36,079 [INFO] Found 0 valid rules for /film/film/music
+2025-06-13 16:36:36,079 [INFO] Mining rules for relation: /film/film/genre with 161 triples
+2025-06-13 16:36:36,105 [INFO] Found 1 valid rules for /film/film/genre
+2025-06-13 16:36:36,106 [INFO] Mining rules for relation: /award/award_ceremony/awards_presented./award/award_honor/honored_for with 10 triples
+2025-06-13 16:36:36,107 [INFO] Found 0 valid rules for /award/award_ceremony/awards_presented./award/award_honor/honored_for
+2025-06-13 16:36:36,107 [INFO] Mining rules for relation: /film/film/release_date_s./film/film_regional_release_date/film_release_region with 210 triples
+2025-06-13 16:36:36,155 [INFO] Found 1 valid rules for /film/film/release_date_s./film/film_regional_release_date/film_release_region
+2025-06-13 16:36:36,156 [INFO] Mining rules for relation: /media_common/netflix_genre/titles with 88 triples
+2025-06-13 16:36:36,205 [INFO] Found 0 valid rules for /media_common/netflix_genre/titles
+2025-06-13 16:36:36,205 [INFO] Mining rules for relation: /education/educational_institution/students_graduates./education/education/major_field_of_study with 27 triples
+2025-06-13 16:36:36,207 [INFO] Found 1 valid rules for /education/educational_institution/students_graduates./education/education/major_field_of_study
+2025-06-13 16:36:36,207 [INFO] Mining rules for relation: /base/marchmadness/ncaa_basketball_tournament/seeds./base/marchmadness/ncaa_tournament_seed/team with 8 triples
+2025-06-13 16:36:36,207 [INFO] Found 0 valid rules for /base/marchmadness/ncaa_basketball_tournament/seeds./base/marchmadness/ncaa_tournament_seed/team
+2025-06-13 16:36:36,207 [INFO] Mining rules for relation: /film/actor/film./film/performance/film with 130 triples
+2025-06-13 16:36:36,231 [INFO] Found 0 valid rules for /film/actor/film./film/performance/film
+2025-06-13 16:36:36,232 [INFO] Mining rules for relation: /sports/sports_position/players./sports/sports_team_roster/team with 8 triples
+2025-06-13 16:36:36,232 [INFO] Found 0 valid rules for /sports/sports_position/players./sports/sports_team_roster/team
+2025-06-13 16:36:36,232 [INFO] Mining rules for relation: /music/performance_role/regular_performances./music/group_membership/role with 23 triples
+2025-06-13 16:36:36,239 [INFO] Found 0 valid rules for /music/performance_role/regular_performances./music/group_membership/role
+2025-06-13 16:36:36,239 [INFO] Mining rules for relation: /tv/tv_writer/tv_programs./tv/tv_program_writer_relationship/tv_program with 5 triples
+2025-06-13 16:36:36,240 [INFO] Found 0 valid rules for /tv/tv_writer/tv_programs./tv/tv_program_writer_relationship/tv_program
+2025-06-13 16:36:36,240 [INFO] Mining rules for relation: /award/award_winning_work/awards_won./award/award_honor/award with 27 triples
+2025-06-13 16:36:36,245 [INFO] Found 1 valid rules for /award/award_winning_work/awards_won./award/award_honor/award
+2025-06-13 16:36:36,245 [INFO] Mining rules for relation: /government/legislative_session/members./government/government_position_held/legislative_sessions with 5 triples
+2025-06-13 16:36:36,246 [INFO] Found 0 valid rules for /government/legislative_session/members./government/government_position_held/legislative_sessions
+2025-06-13 16:36:36,246 [INFO] Mining rules for relation: /location/country/official_language with 6 triples
+2025-06-13 16:36:36,247 [INFO] Found 0 valid rules for /location/country/official_language
+2025-06-13 16:36:36,247 [INFO] Mining rules for relation: /people/person/spouse_s./people/marriage/type_of_union with 270 triples
+2025-06-13 16:36:36,285 [INFO] Found 3 valid rules for /people/person/spouse_s./people/marriage/type_of_union
+2025-06-13 16:36:36,285 [INFO] Mining rules for relation: /music/record_label/artist with 19 triples
+2025-06-13 16:36:36,287 [INFO] Found 1 valid rules for /music/record_label/artist
+2025-06-13 16:36:36,287 [INFO] Mining rules for relation: /sports/pro_athlete/teams./sports/sports_team_roster/team with 16 triples
+2025-06-13 16:36:36,288 [INFO] Found 0 valid rules for /sports/pro_athlete/teams./sports/sports_team_roster/team
+2025-06-13 16:36:36,288 [INFO] Mining rules for relation: /music/performance_role/track_performances./music/track_contribution/role with 47 triples
+2025-06-13 16:36:36,301 [INFO] Found 0 valid rules for /music/performance_role/track_performances./music/track_contribution/role
+2025-06-13 16:36:36,302 [INFO] Mining rules for relation: /location/location/time_zones with 21 triples
+2025-06-13 16:36:36,302 [INFO] Found 1 valid rules for /location/location/time_zones
+2025-06-13 16:36:36,302 [INFO] Mining rules for relation: /film/film/produced_by with 23 triples
+2025-06-13 16:36:36,306 [INFO] Found 1 valid rules for /film/film/produced_by
+2025-06-13 16:36:36,306 [INFO] Mining rules for relation: /location/statistical_region/religions./location/religion_percentage/religion with 10 triples
+2025-06-13 16:36:36,307 [INFO] Found 0 valid rules for /location/statistical_region/religions./location/religion_percentage/religion
+2025-06-13 16:36:36,307 [INFO] Mining rules for relation: /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/draft with 15 triples
+2025-06-13 16:36:36,308 [INFO] Found 1 valid rules for /sports/professional_sports_team/draft_picks./sports/sports_league_draft_pick/draft
+2025-06-13 16:36:36,308 [INFO] Mining rules for relation: /award/award_nominee/award_nominations./award/award_nomination/nominated_for with 78 triples
+2025-06-13 16:36:36,325 [INFO] Found 2 valid rules for /award/award_nominee/award_nominations./award/award_nomination/nominated_for
+2025-06-13 16:36:36,325 [INFO] Mining rules for relation: /music/performance_role/guest_performances./music/recording_contribution/performance_role with 6 triples
+2025-06-13 16:36:36,327 [INFO] Found 0 valid rules for /music/performance_role/guest_performances./music/recording_contribution/performance_role
+2025-06-13 16:36:36,327 [INFO] Mining rules for relation: /music/instrument/instrumentalists with 10 triples
+2025-06-13 16:36:36,331 [INFO] Found 0 valid rules for /music/instrument/instrumentalists
+2025-06-13 16:36:36,331 [INFO] Mining rules for relation: /people/marriage_union_type/unions_of_this_type./people/marriage/location_of_ceremony with 35 triples
+2025-06-13 16:36:36,337 [INFO] Found 0 valid rules for /people/marriage_union_type/unions_of_this_type./people/marriage/location_of_ceremony
+2025-06-13 16:36:36,337 [INFO] Mining rules for relation: /sports/sports_team/colors with 6 triples
+2025-06-13 16:36:36,337 [INFO] Found 0 valid rules for /sports/sports_team/colors
+2025-06-13 16:36:36,337 [INFO] Mining rules for relation: /base/biblioness/bibs_location/state with 8 triples
+2025-06-13 16:36:36,338 [INFO] Found 0 valid rules for /base/biblioness/bibs_location/state
+2025-06-13 16:36:36,338 [INFO] Mining rules for relation: /award/award_ceremony/awards_presented./award/award_honor/award_winner with 37 triples
+2025-06-13 16:36:36,345 [INFO] Found 0 valid rules for /award/award_ceremony/awards_presented./award/award_honor/award_winner
+2025-06-13 16:36:36,345 [INFO] Mining rules for relation: /tv/tv_program/genre with 24 triples
+2025-06-13 16:36:36,349 [INFO] Found 1 valid rules for /tv/tv_program/genre
+2025-06-13 16:36:36,349 [INFO] Mining rules for relation: /sports/sports_league_draft/picks./sports/sports_league_draft_pick/school with 10 triples
+2025-06-13 16:36:36,350 [INFO] Found 0 valid rules for /sports/sports_league_draft/picks./sports/sports_league_draft_pick/school
+2025-06-13 16:36:36,350 [INFO] Mining rules for relation: /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend with 5 triples
+2025-06-13 16:36:36,351 [INFO] Found 0 valid rules for /celebrities/celebrity/celebrity_friends./celebrities/friendship/friend
+2025-06-13 16:36:36,351 [INFO] Mining rules for relation: /film/film/written_by with 7 triples
+2025-06-13 16:36:36,353 [INFO] Found 0 valid rules for /film/film/written_by
+2025-06-13 16:36:36,353 [INFO] Mining rules for relation: /film/film_distributor/films_distributed./film/film_film_distributor_relationship/film with 14 triples
+2025-06-13 16:36:36,357 [INFO] Found 0 valid rules for /film/film_distributor/films_distributed./film/film_film_distributor_relationship/film
+2025-06-13 16:36:36,357 [INFO] Mining rules for relation: /film/actor/dubbing_performances./film/dubbing_performance/language with 16 triples
+2025-06-13 16:36:36,359 [INFO] Found 0 valid rules for /film/actor/dubbing_performances./film/dubbing_performance/language
+2025-06-13 16:36:36,360 [INFO] Mining rules for relation: /organization/organization/headquarters./location/mailing_address/state_province_region with 19 triples
+2025-06-13 16:36:36,361 [INFO] Found 0 valid rules for /organization/organization/headquarters./location/mailing_address/state_province_region
+2025-06-13 16:36:36,362 [INFO] Mining rules for relation: /military/military_combatant/military_conflicts./military/military_combatant_group/combatants with 8 triples
+2025-06-13 16:36:36,363 [INFO] Found 0 valid rules for /military/military_combatant/military_conflicts./military/military_combatant_group/combatants
+2025-06-13 16:36:36,363 [INFO] Mining rules for relation: /base/popstra/celebrity/friendship./base/popstra/friendship/participant with 24 triples
+2025-06-13 16:36:36,367 [INFO] Found 1 valid rules for /base/popstra/celebrity/friendship./base/popstra/friendship/participant
+2025-06-13 16:36:36,367 [INFO] Mining rules for relation: /time/event/instance_of_recurring_event with 11 triples
+2025-06-13 16:36:36,368 [INFO] Found 0 valid rules for /time/event/instance_of_recurring_event
+2025-06-13 16:36:36,368 [INFO] Mining rules for relation: /people/person/places_lived./people/place_lived/location with 46 triples
+2025-06-13 16:36:36,374 [INFO] Found 1 valid rules for /people/person/places_lived./people/place_lived/location
+2025-06-13 16:36:36,374 [INFO] Mining rules for relation: /music/genre/parent_genre with 9 triples
+2025-06-13 16:36:36,375 [INFO] Found 0 valid rules for /music/genre/parent_genre
+2025-06-13 16:36:36,375 [INFO] Mining rules for relation: /broadcast/content/artist with 5 triples
+2025-06-13 16:36:36,376 [INFO] Found 0 valid rules for /broadcast/content/artist
+2025-06-13 16:36:36,376 [INFO] Mining rules for relation: /education/educational_degree/people_with_this_degree./education/education/student with 13 triples
+2025-06-13 16:36:36,378 [INFO] Found 0 valid rules for /education/educational_degree/people_with_this_degree./education/education/student
+2025-06-13 16:36:36,378 [INFO] Mining rules for relation: /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country with 48 triples
+2025-06-13 16:36:36,387 [INFO] Found 2 valid rules for /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country
+2025-06-13 16:36:36,388 [INFO] Mining rules for relation: /organization/organization_founder/organizations_founded with 5 triples
+2025-06-13 16:36:36,388 [INFO] Found 0 valid rules for /organization/organization_founder/organizations_founded
+2025-06-13 16:36:36,389 [INFO] Mining rules for relation: /business/job_title/people_with_this_title./business/employment_tenure/company with 7 triples
+2025-06-13 16:36:36,389 [INFO] Found 0 valid rules for /business/job_title/people_with_this_title./business/employment_tenure/company
+2025-06-13 16:36:36,389 [INFO] Mining rules for relation: /tv/tv_program/regular_cast./tv/regular_tv_appearance/actor with 21 triples
+2025-06-13 16:36:36,392 [INFO] Found 0 valid rules for /tv/tv_program/regular_cast./tv/regular_tv_appearance/actor
+2025-06-13 16:36:36,393 [INFO] Mining rules for relation: /government/legislative_session/members./government/government_position_held/district_represented with 14 triples
+2025-06-13 16:36:36,394 [INFO] Found 1 valid rules for /government/legislative_session/members./government/government_position_held/district_represented
+2025-06-13 16:36:36,394 [INFO] Mining rules for relation: /people/ethnicity/people with 21 triples
+2025-06-13 16:36:36,396 [INFO] Found 0 valid rules for /people/ethnicity/people
+2025-06-13 16:36:36,397 [INFO] Mining rules for relation: /film/film/country with 24 triples
+2025-06-13 16:36:36,402 [INFO] Found 3 valid rules for /film/film/country
+2025-06-13 16:36:36,402 [INFO] Mining rules for relation: /military/military_conflict/combatants./military/military_combatant_group/combatants with 8 triples
+2025-06-13 16:36:36,403 [INFO] Found 0 valid rules for /military/military_conflict/combatants./military/military_combatant_group/combatants
+2025-06-13 16:36:36,403 [INFO] Mining rules for relation: /base/culturalevent/event/entity_involved with 8 triples
+2025-06-13 16:36:36,404 [INFO] Found 0 valid rules for /base/culturalevent/event/entity_involved
+2025-06-13 16:36:36,404 [INFO] Mining rules for relation: /base/popstra/celebrity/canoodled./base/popstra/canoodled/participant with 7 triples
+2025-06-13 16:36:36,405 [INFO] Found 0 valid rules for /base/popstra/celebrity/canoodled./base/popstra/canoodled/participant
+2025-06-13 16:36:36,406 [INFO] Mining rules for relation: /tv/tv_producer/programs_produced./tv/tv_producer_term/program with 10 triples
+2025-06-13 16:36:36,407 [INFO] Found 0 valid rules for /tv/tv_producer/programs_produced./tv/tv_producer_term/program
+2025-06-13 16:36:36,407 [INFO] Mining rules for relation: /award/award_category/nominees./award/award_nomination/nominated_for with 88 triples
+2025-06-13 16:36:36,445 [INFO] Found 0 valid rules for /award/award_category/nominees./award/award_nomination/nominated_for
+2025-06-13 16:36:36,446 [INFO] Mining rules for relation: /award/award_nominee/award_nominations./award/award_nomination/award with 156 triples
+2025-06-13 16:36:36,471 [INFO] Found 1 valid rules for /award/award_nominee/award_nominations./award/award_nomination/award
+2025-06-13 16:36:36,472 [INFO] Mining rules for relation: /baseball/baseball_team/team_stats./baseball/baseball_team_stats/season with 8 triples
+2025-06-13 16:36:36,472 [INFO] Found 0 valid rules for /baseball/baseball_team/team_stats./baseball/baseball_team_stats/season
+2025-06-13 16:36:36,472 [INFO] Mining rules for relation: /people/person/religion with 63 triples
+2025-06-13 16:36:36,480 [INFO] Found 1 valid rules for /people/person/religion
+2025-06-13 16:36:36,480 [INFO] Mining rules for relation: /education/educational_degree/people_with_this_degree./education/education/institution with 94 triples
+2025-06-13 16:36:36,492 [INFO] Found 0 valid rules for /education/educational_degree/people_with_this_degree./education/education/institution
+2025-06-13 16:36:36,492 [INFO] Mining rules for relation: /location/location/adjoin_s./location/adjoining_relationship/adjoins with 27 triples
+2025-06-13 16:36:36,495 [INFO] Found 2 valid rules for /location/location/adjoin_s./location/adjoining_relationship/adjoins
+2025-06-13 16:36:36,495 [INFO] Mining rules for relation: /award/award_category/winners./award/award_honor/ceremony with 20 triples
+2025-06-13 16:36:36,498 [INFO] Found 0 valid rules for /award/award_category/winners./award/award_honor/ceremony
+2025-06-13 16:36:36,499 [INFO] Mining rules for relation: /sports/sports_team/sport with 9 triples
+2025-06-13 16:36:36,499 [INFO] Found 0 valid rules for /sports/sports_team/sport
+2025-06-13 16:36:36,499 [INFO] Mining rules for relation: /film/film/film_format with 22 triples
+2025-06-13 16:36:36,501 [INFO] Found 1 valid rules for /film/film/film_format
+2025-06-13 16:36:36,501 [INFO] Mining rules for relation: /people/cause_of_death/people with 16 triples
+2025-06-13 16:36:36,504 [INFO] Found 0 valid rules for /people/cause_of_death/people
+2025-06-13 16:36:36,505 [INFO] Mining rules for relation: /people/person/languages with 50 triples
+2025-06-13 16:36:36,513 [INFO] Found 3 valid rules for /people/person/languages
+2025-06-13 16:36:36,513 [INFO] Mining rules for relation: /food/food/nutrients./food/nutrition_fact/nutrient with 24 triples
+2025-06-13 16:36:36,513 [INFO] Found 0 valid rules for /food/food/nutrients./food/nutrition_fact/nutrient
+2025-06-13 16:36:36,513 [INFO] Mining rules for relation: /music/genre/artists with 40 triples
+2025-06-13 16:36:36,515 [INFO] Found 1 valid rules for /music/genre/artists
+2025-06-13 16:36:36,516 [INFO] Mining rules for relation: /people/person/employment_history./business/employment_tenure/company with 5 triples
+2025-06-13 16:36:36,516 [INFO] Found 0 valid rules for /people/person/employment_history./business/employment_tenure/company
+2025-06-13 16:36:36,516 [INFO] Mining rules for relation: /award/award_category/winners./award/award_honor/award_winner with 71 triples
+2025-06-13 16:36:36,531 [INFO] Found 0 valid rules for /award/award_category/winners./award/award_honor/award_winner
+2025-06-13 16:36:36,532 [INFO] Mining rules for relation: /people/person/gender with 351 triples
+2025-06-13 16:36:36,568 [INFO] Found 4 valid rules for /people/person/gender
+2025-06-13 16:36:36,568 [INFO] Mining rules for relation: /base/x2010fifaworldcupsouthafrica/world_cup_squad/current_world_cup_squad./base/x2010fifaworldcupsouthafrica/current_world_cup_squad/current_club with 5 triples
+2025-06-13 16:36:36,568 [INFO] Found 0 valid rules for /base/x2010fifaworldcupsouthafrica/world_cup_squad/current_world_cup_squad./base/x2010fifaworldcupsouthafrica/current_world_cup_squad/current_club
+2025-06-13 16:36:36,568 [INFO] Mining rules for relation: /film/film/other_crew./film/film_crew_gig/film_crew_role with 78 triples
+2025-06-13 16:36:36,577 [INFO] Found 1 valid rules for /film/film/other_crew./film/film_crew_gig/film_crew_role
+2025-06-13 16:36:36,578 [INFO] Mining rules for relation: /education/educational_institution/students_graduates./education/education/student with 34 triples
+2025-06-13 16:36:36,580 [INFO] Found 1 valid rules for /education/educational_institution/students_graduates./education/education/student
+2025-06-13 16:36:36,580 [INFO] Mining rules for relation: /people/person/profession with 166 triples
+2025-06-13 16:36:36,595 [INFO] Found 2 valid rules for /people/person/profession
+2025-06-13 16:36:36,596 [INFO] Mining rules for relation: /education/educational_degree/people_with_this_degree./education/education/major_field_of_study with 19 triples
+2025-06-13 16:36:36,598 [INFO] Found 0 valid rules for /education/educational_degree/people_with_this_degree./education/education/major_field_of_study
+2025-06-13 16:36:36,599 [INFO] Mining rules for relation: /music/artist/track_contributions./music/track_contribution/role with 19 triples
+2025-06-13 16:36:36,602 [INFO] Found 1 valid rules for /music/artist/track_contributions./music/track_contribution/role
+2025-06-13 16:36:36,602 [INFO] Mining rules for relation: /film/film/executive_produced_by with 12 triples
+2025-06-13 16:36:36,603 [INFO] Found 0 valid rules for /film/film/executive_produced_by
+2025-06-13 16:36:36,604 [INFO] Mining rules for relation: /film/film_subject/films with 6 triples
+2025-06-13 16:36:36,605 [INFO] Found 0 valid rules for /film/film_subject/films
+2025-06-13 16:36:36,605 [INFO] Mining rules for relation: /tv/tv_program/languages with 20 triples
+2025-06-13 16:36:36,608 [INFO] Found 0 valid rules for /tv/tv_program/languages
+2025-06-13 16:36:36,608 [INFO] Mining rules for relation: /base/popstra/celebrity/dated./base/popstra/dated/participant with 24 triples
+2025-06-13 16:36:36,611 [INFO] Found 0 valid rules for /base/popstra/celebrity/dated./base/popstra/dated/participant
+2025-06-13 16:36:36,612 [INFO] Mining rules for relation: /base/biblioness/bibs_location/country with 10 triples
+2025-06-13 16:36:36,612 [INFO] Found 0 valid rules for /base/biblioness/bibs_location/country
+2025-06-13 16:36:36,613 [INFO] Mining rules for relation: /film/film/other_crew./film/film_crew_gig/crewmember with 5 triples
+2025-06-13 16:36:36,614 [INFO] Found 0 valid rules for /film/film/other_crew./film/film_crew_gig/crewmember
+2025-06-13 16:36:36,614 [INFO] Mining rules for relation: /base/aareas/schema/administrative_area/administrative_parent with 8 triples
+2025-06-13 16:36:36,615 [INFO] Found 0 valid rules for /base/aareas/schema/administrative_area/administrative_parent
+2025-06-13 16:36:36,615 [INFO] Mining rules for relation: /organization/organization/headquarters./location/mailing_address/citytown with 9 triples
+2025-06-13 16:36:36,615 [INFO] Found 0 valid rules for /organization/organization/headquarters./location/mailing_address/citytown
+2025-06-13 16:36:36,615 [INFO] Mining rules for relation: /film/director/film with 21 triples
+2025-06-13 16:36:36,619 [INFO] Found 0 valid rules for /film/director/film
+2025-06-13 16:36:36,620 [INFO] Mining rules for relation: /base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_language with 15 triples
+2025-06-13 16:36:36,621 [INFO] Found 0 valid rules for /base/schemastaging/organization_extra/phone_number./base/schemastaging/phone_sandbox/service_language
+2025-06-13 16:36:36,621 [INFO] Mining rules for relation: /people/person/place_of_birth with 21 triples
+2025-06-13 16:36:36,624 [INFO] Found 0 valid rules for /people/person/place_of_birth
+2025-06-13 16:36:36,624 [INFO] Mining rules for relation: /location/administrative_division/country with 9 triples
+2025-06-13 16:36:36,625 [INFO] Found 0 valid rules for /location/administrative_division/country
+2025-06-13 16:36:36,625 [INFO] Mining rules for relation: /business/business_operation/industry with 13 triples
+2025-06-13 16:36:36,626 [INFO] Found 0 valid rules for /business/business_operation/industry
+2025-06-13 16:36:36,626 [INFO] Mining rules for relation: /people/deceased_person/place_of_burial with 6 triples
+2025-06-13 16:36:36,626 [INFO] Found 0 valid rules for /people/deceased_person/place_of_burial
+2025-06-13 16:36:36,627 [INFO] Mining rules for relation: /film/film/story_by with 5 triples
+2025-06-13 16:36:36,627 [INFO] Found 0 valid rules for /film/film/story_by
+2025-06-13 16:36:36,628 [INFO] Mining rules for relation: /travel/travel_destination/how_to_get_here./travel/transportation/mode_of_transportation with 6 triples
+2025-06-13 16:36:36,628 [INFO] Found 0 valid rules for /travel/travel_destination/how_to_get_here./travel/transportation/mode_of_transportation
+2025-06-13 16:36:36,628 [INFO] Mining rules for relation: /education/educational_institution/colors with 6 triples
+2025-06-13 16:36:36,628 [INFO] Found 0 valid rules for /education/educational_institution/colors
+2025-06-13 16:36:36,629 [INFO] Mining rules for relation: /travel/travel_destination/climate./travel/travel_destination_monthly_climate/month with 10 triples
+2025-06-13 16:36:36,629 [INFO] Found 0 valid rules for /travel/travel_destination/climate./travel/travel_destination_monthly_climate/month
+2025-06-13 16:36:36,629 [INFO] Mining rules for relation: /award/award_winner/awards_won./award/award_honor/award_winner with 120 triples
+2025-06-13 16:36:36,655 [INFO] Found 1 valid rules for /award/award_winner/awards_won./award/award_honor/award_winner
+2025-06-13 16:36:36,655 [INFO] Mining rules for relation: /location/country/form_of_government with 8 triples
+2025-06-13 16:36:36,656 [INFO] Found 0 valid rules for /location/country/form_of_government
+2025-06-13 16:36:36,656 [INFO] Mining rules for relation: /soccer/football_player/current_team./sports/sports_team_roster/team with 10 triples
+2025-06-13 16:36:36,656 [INFO] Found 0 valid rules for /soccer/football_player/current_team./sports/sports_team_roster/team
+2025-06-13 16:36:36,657 [INFO] Mining rules for relation: /location/location/contains with 78 triples
+2025-06-13 16:36:36,670 [INFO] Found 0 valid rules for /location/location/contains
+2025-06-13 16:36:36,670 [INFO] Mining rules for relation: /base/popstra/location/vacationers./base/popstra/vacation_choice/vacationer with 8 triples
+2025-06-13 16:36:36,672 [INFO] Found 0 valid rules for /base/popstra/location/vacationers./base/popstra/vacation_choice/vacationer
+2025-06-13 16:36:36,672 [INFO] Mining rules for relation: /people/person/nationality with 43 triples
+2025-06-13 16:36:36,678 [INFO] Found 2 valid rules for /people/person/nationality
+2025-06-13 16:36:36,678 [INFO] Mining rules for relation: /music/performance_role/regular_performances./music/group_membership/group with 11 triples
+2025-06-13 16:36:36,681 [INFO] Found 0 valid rules for /music/performance_role/regular_performances./music/group_membership/group
+2025-06-13 16:36:36,682 [INFO] Mining rules for relation: /film/film/language with 153 triples
+2025-06-13 16:36:36,706 [INFO] Found 3 valid rules for /film/film/language
+2025-06-13 16:36:36,706 [INFO] Mining rules for relation: /award/award_nominee/award_nominations./award/award_nomination/award_nominee with 287 triples
+2025-06-13 16:36:36,789 [INFO] Found 0 valid rules for /award/award_nominee/award_nominations./award/award_nomination/award_nominee
+2025-06-13 16:36:36,789 [INFO] Mining rules for relation: /award/award_winning_work/awards_won./award/award_honor/honored_for with 5 triples
+2025-06-13 16:36:36,790 [INFO] Found 0 valid rules for /award/award_winning_work/awards_won./award/award_honor/honored_for
+2025-06-13 16:36:36,791 [INFO] Mining rules for relation: /sports/sports_team/roster./american_football/football_historical_roster_position/position_s with 5 triples
+2025-06-13 16:36:36,791 [INFO] Found 0 valid rules for /sports/sports_team/roster./american_football/football_historical_roster_position/position_s
+2025-06-13 16:36:36,791 [INFO] Mining rules for relation: /film/film/production_companies with 16 triples
+2025-06-13 16:36:36,794 [INFO] Found 0 valid rules for /film/film/production_companies
+2025-06-13 16:36:36,794 [INFO] Mining rules for relation: /influence/influence_node/influenced_by with 15 triples
+2025-06-13 16:36:36,795 [INFO] Found 0 valid rules for /influence/influence_node/influenced_by
+2025-06-13 16:36:36,796 [INFO] Mining rules for relation: /award/award_winning_work/awards_won./award/award_honor/award_winner with 40 triples
+2025-06-13 16:36:36,803 [INFO] Found 1 valid rules for /award/award_winning_work/awards_won./award/award_honor/award_winner
+2025-06-13 16:36:36,803 [INFO] Extracting type constraint rules
+2025-06-13 16:36:36,804 [INFO] Extracted types for 0 entities using 0 type relations
+2025-06-13 16:36:36,804 [WARNING] Not enough entity type information for type constraint rules: 0 < 100
+2025-06-13 16:36:36,804 [INFO] Total rules mined: 47
+2025-06-13 16:36:36,804 [INFO] Found 0 conflicting rule pairs
+2025-06-13 16:36:36,805 [INFO] Saved 47 rules to ./roughsets/output/fb237_v1_ruleset.json
+2025-06-13 16:36:36,805 [INFO] Rule statistics by type: {'path': 47}
+2025-06-13 16:36:36,805 [INFO] Step 2: Learning rule embeddings (device: cuda)
+2025-06-13 16:36:36,805 [INFO] Loaded 47 rules from ./roughsets/output/fb237_v1_ruleset.json
+2025-06-13 16:36:36,806 [INFO] Found 31 distinct relations in ruleset
+2025-06-13 16:36:36,806 [INFO] Training rule embeddings...
+2025-06-13 16:36:43,734 [INFO] Epoch 1/10, Loss: 0.9764
+2025-06-13 16:36:43,749 [INFO] Epoch 5/10, Loss: 0.5667
+2025-06-13 16:36:43,766 [INFO] Epoch 10/10, Loss: 0.1596
+2025-06-13 16:36:43,766 [INFO] Rule embedding training completed
+2025-06-13 16:36:43,770 [INFO] Saved rule embeddings to ./roughsets/output/fb237_v1_rule_embeddings.json
+2025-06-13 16:36:43,772 [INFO] Generated 48 rule embeddings
+2025-06-13 16:36:43,772 [INFO] Generated 31 relation embeddings
+2025-06-13 16:36:43,772 [INFO] Special token: NO_RULE_IDX = 47
+2025-06-13 16:36:43,772 [INFO] Phase 1 completed successfully

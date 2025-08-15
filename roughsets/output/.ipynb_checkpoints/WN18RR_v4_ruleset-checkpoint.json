@@ -1,0 +1,166 @@
+[
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.8787878787878788,
+    "support": 33,
+    "id": 0,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_hypernym",
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 3,
+    "id": 1,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_synset_domain_topic_of",
+    "path": [
+      "_synset_domain_topic_of",
+      "_derivationally_related_form",
+      "_synset_domain_topic_of"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 3,
+    "id": 2,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_also_see",
+    "path": [
+      "_also_see",
+      "_similar_to",
+      "_similar_to"
+    ],
+    "confidence": 1.0,
+    "support": 8,
+    "id": 3,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_hypernym",
+    "path": [
+      "_hypernym"
+    ],
+    "confidence": 0.9867549668874173,
+    "support": 453,
+    "id": 4,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_hypernym",
+    "path": [
+      "_verb_group",
+      "_verb_group",
+      "_hypernym"
+    ],
+    "confidence": 0.9166666666666666,
+    "support": 12,
+    "id": 5,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_hypernym",
+    "path": [
+      "_hypernym",
+      "_verb_group",
+      "_verb_group"
+    ],
+    "confidence": 0.782608695652174,
+    "support": 23,
+    "id": 6,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_verb_group",
+    "path": [
+      "_verb_group"
+    ],
+    "confidence": 0.75,
+    "support": 52,
+    "id": 7,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_member_meronym",
+    "path": [
+      "_derivationally_related_form",
+      "_derivationally_related_form",
+      "_member_meronym"
+    ],
+    "confidence": 0.6666666666666666,
+    "support": 3,
+    "id": 8,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_similar_to",
+    "path": [
+      "_similar_to"
+    ],
+    "confidence": 1.0,
+    "support": 3,
+    "id": 9,
+    "conflicts": []
+  },
+  {
+    "type": "path",
+    "relation": "_similar_to",
+    "path": [
+      "_similar_to",
+      "_similar_to",
+      "_similar_to"
+    ],
+    "confidence": 1.0,
+    "support": 3,
+    "id": 10,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_synset_domain_topic_of",
+    "head_type": "07992450",
+    "tail_type": "06037298",
+    "confidence": 1.0,
+    "support": 6,
+    "id": 11,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_synset_domain_topic_of",
+    "head_type": "01181475",
+    "tail_type": "07951464",
+    "confidence": 1.0,
+    "support": 3,
+    "id": 12,
+    "conflicts": []
+  },
+  {
+    "type": "type_constraint",
+    "relation": "_hypernym",
+    "head_type": "00007846",
+    "tail_type": "00004475",
+    "confidence": 1.0,
+    "support": 43,
+    "id": 13,
+    "conflicts": []
+  }
+]
