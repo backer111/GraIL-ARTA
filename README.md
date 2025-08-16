@@ -17,7 +17,7 @@ b. Learn rules:
 
 c. Training:
    ```
-   python roughsets/phase2_joint_training.py --dataset fb237_v1 --experiment_name WN18RR_v1_hop2 --gpu 0 --num_epochs 40 --aux_loss_weight 0.3 --rule_dropout 0.1 --enclosing_sub_graph
+   python roughsets/phase2_joint_training.py --dataset WN18RR_v1 --experiment_name WN18RR_v1_hop2 --gpu 0 --num_epochs 40 --aux_loss_weight 0.3 --rule_dropout 0.1 --enclosing_sub_graph
    ```
 
 d. Test performance:
