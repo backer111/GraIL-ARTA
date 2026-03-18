@@ -1,4 +1,4 @@
-dgl==0.4.2
+dgl==0.4.3
 lmdb==0.98
 networkx==2.4
 scikit-learn==0.22.1
